@@ -1,0 +1,8 @@
+set style data histogram
+set style histogram cluster gap 0
+set title "Histograma"
+set terminal png
+set output filename
+pause -1
+plot "Histograma.txt" using 2:xtic(1)
+
